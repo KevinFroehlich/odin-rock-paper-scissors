@@ -1,3 +1,4 @@
+function playGame() {
 const choices = [ "rock", "paper", "scissors"]
 let humanScore = 0
 let computerScore = 0
@@ -32,4 +33,11 @@ function playRound(humanChoice, computerChoice) {
     console.log(`Your Score:${humanScore} Computer Score:${computerScore}`)
 }
 
-playRound(getHumanChoice(), getComputerChoice())
+    for(let i = 5; i > 0; i--) {
+
+    playRound(getHumanChoice(), getComputerChoice())
+
+    }
+    (humanScore > computerScore) ? console.log(`You won with a score of ${humanScore} against ${computerScore}`) : console.log(`You lost with a score of ${humanScore} against ${computerScore}`)
+    
+}
