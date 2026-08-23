@@ -1,0 +1,10 @@
+.page {
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    width: 10rem;
+    height: 5rem;
+    font-size: 1.5rem;
+}
